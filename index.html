@@ -1,0 +1,501 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Маргарита Масютина — школьный логопед</title>
+  <meta name="description" content="Помогаю понять, почему ребёнку трудно читать и писать и как ему помочь. Книги, игры, курсы и другие материалы для специалистов и родителей.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Маргарита Масютина — школьный логопед">
+  <meta property="og:description" content="Книги, игры, курсы и другие материалы для специалистов и родителей.">
+  <meta property="og:image" content="assets/img/hero-1024.webp">
+  <link rel="icon" type="image/png" href="assets/img/logo-avatar.png">
+  <link rel="preload" href="assets/fonts/inter-tight-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" as="image" href="assets/video/hero-poster.webp" fetchpriority="high">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header header--on-light">
+    <div class="header__bar">
+      <div class="header__inner">
+        <a class="logo" href="./" aria-label="Маргарита Масютина — на главную">
+          <img class="logo__avatar" src="assets/img/logo-avatar.png" width="44" height="44" alt="">
+          <img class="logo__text" src="assets/icons/logo-text.svg" width="84" height="31" alt="">
+          <img class="logo__text logo__text--dark" src="assets/icons/logo-text-dark.svg" width="84" height="31" alt="">
+        </a>
+
+        <nav class="header__nav t-100-lg" aria-label="Основное меню">
+          <a href="books/">Книги</a>
+          <a href="courses/">Курсы</a>
+          <a href="games/">Игры</a>
+          <a href="#about">Об авторе</a>
+          <a href="#contacts">Контакты</a>
+        </nav>
+
+        <a class="btn btn--xs header__cta t-100-sm" href="newsletter/">Рассылка</a>
+
+        <button class="header__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+          <img class="header__burger-icon header__burger-icon--open" src="assets/icons/menu.svg" width="32" height="32" alt="">
+          <img class="header__burger-icon header__burger-icon--open header__burger-icon--dark" src="assets/icons/menu-dark.svg" width="32" height="32" alt="">
+          <img class="header__burger-icon header__burger-icon--close" src="assets/icons/close-dark.svg" width="32" height="32" alt="">
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильное меню">
+      <ul class="mobile-menu__list t-h-lg">
+        <li><a href="books/">Книги</a></li>
+        <li><a href="courses/">Курсы</a></li>
+        <li><a href="games/">Игры</a></li>
+        <li><a href="#about">Об авторе</a></li>
+        <li><a href="#contacts">Контакты</a></li>
+      </ul>
+
+      <div class="promo">
+        <div class="promo__body">
+          <div class="promo__text">
+            <p class="t-i120-sm">(&nbsp;рассылка&nbsp;)</p>
+            <p class="t-h-sm">Дислексия, дисграфия</p>
+            <p class="t-120-lg c-subtle">и другие приключения</p>
+          </div>
+          <a class="btn btn--sm promo__btn promo__link t-100-md" href="newsletter/">Подписаться</a>
+        </div>
+        <div class="promo__img" aria-hidden="true">
+          <img src="assets/img/newsletter-letter.webp" width="1100" height="1100" loading="lazy" decoding="async" alt="">
+        </div>
+      </div>
+
+      <div class="mobile-menu__socials">
+        <a class="btn btn--icon-sm" href="https://vk.ru/margarita_masyutina" target="_blank" rel="noopener" aria-label="ВКонтакте"><img src="assets/icons/vk-20.svg" width="20" height="20" alt=""></a>
+        <a class="btn btn--icon-sm" href="https://t.me/margarita_masyutina" target="_blank" rel="noopener" aria-label="Телеграм"><img src="assets/icons/telegram-20.svg" width="20" height="20" alt=""></a>
+        <a class="btn btn--icon-sm" href="https://www.instagram.com/margarita_masyutina/" target="_blank" rel="noopener" aria-label="Инстаграм"><img src="assets/icons/instagram-20.svg" width="20" height="20" alt=""></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <!-- Пока вместо фото — листание книги. Файлы собирает tools/hero-video.py;
+           при «Уменьшить движение» видео не запускается, виден постер (js/main.js) -->
+      <div class="hero__media hero__media--video">
+        <video class="hero__video" autoplay muted loop playsinline disablepictureinpicture disableremoteplayback
+               poster="assets/video/hero-poster.webp" width="1280" height="720" aria-hidden="true">
+          <source src="assets/video/hero.webm" type="video/webm">
+          <source src="assets/video/hero.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="hero__card">
+        <img class="hero__avatar" src="assets/img/hero-avatar.webp" width="108" height="108" alt="">
+
+        <div class="hero__person">
+          <p class="t-h-md">Маргарита Масютина</p>
+          <p class="t-120-lg c-subtle">Школьный логопед, магистр</p>
+        </div>
+
+        <div class="hero__intro">
+          <h1 class="t-h-2xl">Помогаю понять, почему ребёнку трудно читать и&nbsp;писать и&nbsp;как ему помочь</h1>
+          <p class="t-140-xl c-subtle">На этом сайте собраны мои книги, игры, курсы и&nbsp;другие материалы для&nbsp;специалистов и&nbsp;родителей.</p>
+        </div>
+
+        <a class="btn t-100-lg" href="#books">Выбрать материалы</a>
+      </div>
+    </section>
+
+    <!-- Materials: folders -->
+    <div class="folders">
+      <div class="folders__inner">
+
+        <!-- Книги -->
+        <section class="folder folder--books" id="books" aria-labelledby="books-title">
+          <img class="folder__tab" src="assets/icons/tab-red.svg" width="200" height="48" alt="">
+          <h2 class="folder__label t-120-xl" id="books-title">Книги</h2>
+
+          <div class="folder__body">
+            <div class="folder__head">
+              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="books-content" aria-label="Свернуть или развернуть раздел «Книги»">
+                <img src="assets/icons/chevron-down-white.svg" width="24" height="24" alt="">
+              </button>
+            </div>
+
+            <div class="folder__collapse">
+              <div class="folder__content" id="books-content">
+                <div class="cards cards--books">
+
+                  <article class="card">
+                    <div class="card__main">
+                      <div class="card__media">
+                        <img src="assets/img/book-disgrafiya.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Серия «Дисграфия»: три пособия на полке">
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Серия  ]</p>
+                        <h3 class="t-h-lg">Дисграфия</h3>
+                        <p class="t-140-lg c-subtle">Три пособия для коррекции ошибок на&nbsp;письме у&nbsp;младших школьников: смешения букв, обозначающих звонкие и&nbsp;глухие согласные, трудностей обозначения мягкости согласных и&nbsp;смешения сходных по&nbsp;начертанию букв. В&nbsp;каждой книге представлена система занятий по&nbsp;выбранному направлению.</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="books/disgrafiya/">Подробнее</a>
+                  </article>
+
+                  <article class="card">
+                    <div class="card__main">
+                      <div class="card__media">
+                        <img src="assets/img/book-disleksiya.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Пособие «Дислексия. Если ребёнок плохо читает слоги и слова» на полке">
+                        <p class="card__badge">Скоро в продаже</p>
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Серия  ]</p>
+                        <h3 class="t-h-lg">Дислексия</h3>
+                        <p class="t-140-lg c-subtle">Серия пособий для формирования и&nbsp;автоматизации навыка чтения и&nbsp;развития понимания прочитанного. Материал постепенно усложняется, позволяя подобрать задания с&nbsp;учётом уровня чтения и&nbsp;трудностей ребёнка.</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="books/disleksiya/">Подробнее</a>
+                  </article>
+
+                  <article class="card">
+                    <div class="card__main">
+                      <div class="card__media">
+                        <img src="assets/img/book-prochtenie.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Книга «Прочтение. Мир вокруг» на полке">
+                        <p class="card__badge card__badge--off">Нет в продаже</p>
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Книга  ]</p>
+                        <h3 class="t-h-lg">Прочтение. Мир вокруг</h3>
+                        <p class="t-140-lg c-subtle">Пособие для совершенствования техники чтения и&nbsp;понимания прочитанного. Внутри вы&nbsp;найдёте 30&nbsp;познавательных текстов и&nbsp;коррекционные упражнения. Для детей, которые уже читают, но&nbsp;нуждаются в&nbsp;дальнейшей отработке навыка.</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="books/prochtenie/">Подробнее</a>
+                  </article>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Курсы -->
+        <section class="folder folder--courses" id="courses" aria-labelledby="courses-title">
+          <img class="folder__tab" src="assets/icons/tab-gray.svg" width="200" height="48" alt="">
+          <h2 class="folder__label t-120-xl" id="courses-title">Курсы</h2>
+
+          <div class="folder__body">
+            <div class="folder__head">
+              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="courses-content" aria-label="Свернуть или развернуть раздел «Курсы»">
+                <img src="assets/icons/chevron-down-dark.svg" width="24" height="24" alt="">
+              </button>
+            </div>
+
+            <div class="folder__collapse">
+              <div class="folder__content" id="courses-content">
+                <div class="cards cards--courses">
+
+                  <article class="card card--course">
+                    <div class="card__main">
+                      <div class="card__media card__media--course">
+                        <img src="assets/img/course-disleksiya.webp" width="1440" height="810" loading="lazy" decoding="async" alt="Курс «Дислексия и даже больше»">
+                        <p class="card__badge">Открыта предзапись</p>
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Курс  ]</p>
+                        <h3 class="t-h-lg">Дислексия и&nbsp;даже больше</h3>
+                        <p class="card__desc t-140-lg c-subtle">Как понять, почему ребёнку трудно читать, и&nbsp;выстроить индивидуальный маршрут помощи</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="courses/disleksiya/">Подробнее</a>
+                  </article>
+
+                  <article class="card card--course">
+                    <div class="card__main">
+                      <div class="card__media card__media--course">
+                        <img src="assets/img/course-dai-pyat.webp" width="1440" height="823" loading="lazy" decoding="async" alt="Курс «Дай Пять!»">
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Курс  ]</p>
+                        <h3 class="t-h-lg">Дай Пять!</h3>
+                        <p class="card__desc t-140-lg c-subtle">Помогите ребенку учиться на&nbsp;4 и&nbsp;5 без&nbsp;истерик и&nbsp;зубрёжки, даже если сейчас на&nbsp;уроках он&nbsp;считает ворон</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="courses/dai5/">Подробнее</a>
+                  </article>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Игры: живут на Vercel, на сайте — страницы со встроенной игрой -->
+        <section class="folder folder--games" id="games" aria-labelledby="games-title">
+          <img class="folder__tab" src="assets/icons/tab-blue.svg" width="200" height="48" alt="">
+          <h2 class="folder__label t-120-xl" id="games-title">Игры</h2>
+
+          <div class="folder__body">
+            <div class="folder__head">
+              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="games-content" aria-label="Свернуть или развернуть раздел «Игры»">
+                <img src="assets/icons/chevron-down-white.svg" width="24" height="24" alt="">
+              </button>
+            </div>
+
+            <div class="folder__collapse">
+              <div class="folder__content" id="games-content">
+                <div class="cards cards--games">
+
+                  <article class="card">
+                    <div class="card__main">
+                      <div class="card__media">
+                        <img src="assets/img/game-double.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Две карточки со слогом «МА»">
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Игра 01  ]</p>
+                        <h3 class="t-h-lg">Где дубль?</h3>
+                        <p class="t-140-lg c-subtle">На двух карточках есть один общий элемент. Кто найдёт его первым?</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="games/double/">Играть</a>
+                  </article>
+
+                  <article class="card">
+                    <div class="card__main">
+                      <div class="card__media">
+                        <img src="assets/img/game-word-maze.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Лабиринт из карточек с буквами Щ, Ш и Ч">
+                      </div>
+                      <div class="card__text">
+                        <p class="card__tag t-i140-lg">[  Игра 02  ]</p>
+                        <h3 class="t-h-lg">Поймай меня</h3>
+                        <p class="t-140-lg c-subtle">Перед вами лабиринт, который нужно пройти по&nbsp;заданным правилам. Сможете найти выход?</p>
+                      </div>
+                    </div>
+                    <a class="btn t-100-lg" href="games/word-maze/">Играть</a>
+                  </article>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Об авторе -->
+        <section class="folder folder--about" id="about" aria-labelledby="about-title">
+          <img class="folder__tab" src="assets/icons/tab-yellow.svg" width="200" height="48" alt="">
+          <h2 class="folder__label t-120-xl" id="about-title">Об авторе</h2>
+
+          <div class="folder__body">
+            <div class="about__collage">
+              <img src="assets/img/author-collage.webp" width="2048" height="1024" loading="lazy" decoding="async" alt="Маргарита Масютина">
+            </div>
+
+            <div class="about__card">
+              <div class="section-heading">
+                <p class="eyebrow t-i140-xl">[  Автор  ]</p>
+                <h3 class="t-h-xl">Масютина<br>Маргарита Егоровна</h3>
+              </div>
+
+              <div class="slider is-start" data-slider>
+                <div class="slider__track">
+
+                  <article class="fact fact--01">
+                    <p class="t-i140-lg">(&nbsp;01&nbsp;)</p>
+                    <div class="fact__text">
+                      <!-- В макетах 320–1023 и 1024+ разные формулировки -->
+                      <h4 class="t-h120-sm"><span class="u-lg-hide">Практикующий школьный логопед с 14-летним опытом работы</span><span class="u-lg-only">Практикующий школьный логопед с опытом 14 лет</span></h4>
+                      <p class="t-140-lg c-subtle">Специализация — диагностика и коррекция нарушений чтения и письма, в том числе при дислексии, дисграфии и дизорфографии.</p>
+                    </div>
+                    <div class="fact__sticker"><img src="assets/img/author-01.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+                  </article>
+
+                  <article class="fact fact--02">
+                    <p class="t-i140-lg">(&nbsp;02&nbsp;)</p>
+                    <div class="fact__text">
+                      <h4 class="t-h120-sm">Магистр</h4>
+                      <p class="t-140-lg c-subtle">Программа «Нейродефектология и комплексная реабилитация лиц с нарушениями коммуникации»</p>
+                    </div>
+                    <div class="fact__sticker"><img src="assets/img/author-02.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+                  </article>
+
+                  <article class="fact">
+                    <p class="t-i140-lg">(&nbsp;03&nbsp;)</p>
+                    <div class="fact__text">
+                      <h4 class="t-h120-sm">Автор коррекционных пособий</h4>
+                      <p class="t-140-lg c-subtle">Общий тираж более 70 000 экземпляров</p>
+                    </div>
+                    <div class="fact__sticker"><img src="assets/img/author-03.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+                  </article>
+
+                  <article class="fact">
+                    <p class="t-i140-lg">(&nbsp;04&nbsp;)</p>
+                    <div class="fact__text">
+                      <h4 class="t-h120-sm">Автор образовательных программ</h4>
+                      <p class="t-140-lg c-subtle">Программы для специалистов и родителей, в&nbsp;которых приняли участие более 1200 человек</p>
+                    </div>
+                    <div class="fact__sticker"><img src="assets/img/author-04.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+                  </article>
+
+                  <article class="fact">
+                    <p class="t-i140-lg">(&nbsp;05&nbsp;)</p>
+                    <div class="fact__text">
+                      <h4 class="t-h120-sm">Спикер</h4>
+                      <p class="t-140-lg c-subtle">Участие в профессиональных конференциях, семинарах и вебинарах по вопросам дислексии, дисграфии и других трудностей обучения</p>
+                    </div>
+                    <div class="fact__sticker"><img src="assets/img/author-05.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+                  </article>
+
+                </div>
+
+                <div class="slider__fade slider__fade--prev" aria-hidden="true"></div>
+                <div class="slider__fade slider__fade--next" aria-hidden="true"></div>
+                <button class="icon-btn slider__btn slider__btn--prev" type="button" aria-label="Предыдущий факт">
+                  <img src="assets/icons/chevron-right-dark.svg" width="28" height="28" alt="">
+                </button>
+                <button class="icon-btn slider__btn slider__btn--next" type="button" aria-label="Следующий факт">
+                  <img src="assets/icons/chevron-right-dark.svg" width="28" height="28" alt="">
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+    <!-- Контакты -->
+    <section class="contacts" id="contacts" aria-labelledby="contacts-title">
+      <div class="contacts__inner">
+        <div class="section-heading">
+          <p class="eyebrow t-i140-xl">[  Контакты  ]</p>
+          <h2 class="t-h-xl" id="contacts-title">Давайте оставаться<br>на связи</h2>
+        </div>
+
+        <div class="contacts__cards">
+          <article class="contact-card contact-card--social">
+            <p class="t-i140-lg">(&nbsp;01&nbsp;)</p>
+            <div class="contact-card__main">
+              <div class="contact-card__text">
+                <h3 class="t-h-lg">Социальные сети</h3>
+                <p class="t-140-lg">В соцсетях я делюсь материалами, рекомендациями и новостями.<span class="c-subtle"> Буду рада видеть вас среди читателей!</span></p>
+              </div>
+              <div class="contact-card__actions">
+                <a class="btn btn--icon" href="https://vk.ru/margarita_masyutina" target="_blank" rel="noopener" aria-label="ВКонтакте"><img src="assets/icons/vk.svg" width="28" height="28" alt=""></a>
+                <a class="btn btn--icon" href="https://t.me/margarita_masyutina" target="_blank" rel="noopener" aria-label="Телеграм"><img src="assets/icons/telegram.svg" width="28" height="28" alt=""></a>
+                <a class="btn t-100-lg" href="https://www.instagram.com/margarita_masyutina/" target="_blank" rel="noopener">Инстаграм*</a>
+              </div>
+            </div>
+            <div class="contact-card__sticker"><img src="assets/img/contacts-socials.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+          </article>
+
+          <article class="contact-card contact-card--mail">
+            <p class="t-i140-lg">(&nbsp;02&nbsp;)</p>
+            <div class="contact-card__main">
+              <div class="contact-card__text">
+                <h3 class="t-h-lg">Написать мне</h3>
+                <p class="t-140-lg">Хотите обсудить совместный проект, пригласить меня выступить или&nbsp;поговорить о книгах и&nbsp;обучении? <span class="c-subtle">Напишите мне по электронной почте.</span></p>
+              </div>
+              <div class="contact-card__actions">
+                <a class="btn t-100-lg" href="mailto:masyutinamargarita@gmail.com">Написать письмо</a>
+              </div>
+            </div>
+            <div class="contact-card__sticker"><img src="assets/img/contacts-envelope.webp" width="200" height="200" loading="lazy" decoding="async" alt=""></div>
+          </article>
+        </div>
+
+        <p class="contacts__note t-i140-md c-subtle">*&nbsp;Instagram принадлежит компании Meta Platforms Inc., признанной экстремистской организацией, деятельность которой запрещена в Российской Федерации.</p>
+      </div>
+    </section>
+
+    <!-- Рассылка -->
+    <div class="newsletter-wrap">
+      <section class="newsletter" id="newsletter" aria-labelledby="newsletter-title">
+        <div class="newsletter__inner">
+          <div class="newsletter__col">
+            <div class="folder-card">
+              <img class="folder-card__tab folder-card__tab--back" src="assets/img/folder-tab-back.webp" width="212" height="48" alt="">
+              <img class="folder-card__tab folder-card__tab--front" src="assets/img/folder-tab-front.webp" width="212" height="48" alt="">
+              <p class="folder-card__label t-i140-xl">[ Рассылка ]</p>
+
+              <div class="folder-card__text">
+                <h2 class="t-h-xl" id="newsletter-title">Дислексия,<br>дисграфия</h2>
+                <p class="t-120-xl">и другие приключения</p>
+              </div>
+
+              <img class="folder-card__clip" src="assets/img/paperclip.webp" width="120" height="120" loading="lazy" decoding="async" alt="">
+
+              <div class="folder-card__cta">
+                <a class="btn t-100-lg" href="newsletter/">Узнать больше и подписаться</a>
+                <p class="t-i140-lg c-subtle">Рассылка о&nbsp;трудностях чтения и письма, практической работе и полезных материалах для специалистов и родителей</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="newsletter__media">
+            <img src="assets/img/newsletter-letter.webp" width="1100" height="1100" loading="lazy" decoding="async" alt="Пример письма рассылки «Дислексия, дисграфия и другие приключения»">
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__col footer__col--site">
+          <p class="t-i120-lg c-subtle">Сайт</p>
+          <ul class="footer__links t-120-lg">
+            <li><a href="books/">Книги</a></li>
+            <li><a href="courses/">Курсы</a></li>
+            <li><a href="games/">Игры</a></li>
+            <li><a href="#about">Об авторе</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+            <li><a href="newsletter/">Рассылка</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--social">
+          <p class="t-i120-lg c-subtle">Соцсети</p>
+          <ul class="footer__links t-120-lg">
+            <li><a href="https://vk.ru/margarita_masyutina" target="_blank" rel="noopener">ВКонтакте</a></li>
+            <li><a href="https://t.me/margarita_masyutina" target="_blank" rel="noopener">Телеграм</a></li>
+            <li><a href="https://www.instagram.com/margarita_masyutina/" target="_blank" rel="noopener">Инстаграм*</a></li>
+          </ul>
+        </div>
+
+        <div class="promo footer__promo">
+          <div class="promo__body">
+            <div class="promo__text">
+              <p class="t-i120-sm">(&nbsp;рассылка&nbsp;)</p>
+              <p class="t-h-sm">Дислексия, дисграфия</p>
+              <p class="t-120-lg c-subtle">и другие приключения</p>
+            </div>
+            <a class="btn btn--sm promo__btn promo__link t-100-md" href="newsletter/">Подписаться</a>
+            <a class="btn btn--icon-sm promo__arrow promo__link" href="newsletter/" aria-label="Подписаться на рассылку">
+              <img src="assets/icons/chevron-right-white.svg" width="20" height="20" alt="">
+            </a>
+          </div>
+          <div class="promo__img" aria-hidden="true">
+            <img src="assets/img/newsletter-letter.webp" width="1100" height="1100" loading="lazy" decoding="async" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom t-i140-md c-subtle">
+        <div class="footer__legal">
+          <p>*Instagram принадлежит компании Meta Platforms Inc., признанной экстремистской организацией; её деятельность запрещена на территории Российской Федерации.</p>
+          <a href="consent-newsletter/">Согласие на получение рассылки рекламного, информационного характера</a>
+          <a href="policy/">Политика обработки персональных данных</a>
+          <a href="consent/">Согласие на обработку персональных данных</a>
+        </div>
+        <div class="footer__copy">
+          <p class="u-pre">©2026  Все права защищены. ИП Масютина М.Е.</p>
+          <a href="https://vyoksa.com" target="_blank" rel="noopener">Разработано vyoksa</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>

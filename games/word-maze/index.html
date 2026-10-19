@@ -1,0 +1,201 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Поймай меня — игра Маргариты Масютиной</title>
+  <meta name="description" content="Помогите герою добраться до цели через лабиринт: найдите верный путь, следуя заданию. Сможете пройти его без ошибок?">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Поймай меня — игра Маргариты Масютиной">
+  <meta property="og:description" content="Перед вами лабиринт, который нужно пройти по заданным правилам. Сможете найти выход?">
+  <meta property="og:image" content="../../assets/img/game-word-maze.webp">
+  <link rel="icon" type="image/png" href="../../assets/img/logo-avatar.png">
+  <link rel="preload" href="../../assets/fonts/inter-tight-normal-cyrillic.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+
+  <!-- Header — как на странице «Книги» -->
+  <header class="header header--solid">
+    <div class="header__bar">
+      <div class="header__inner">
+        <a class="logo" href="../../" aria-label="Маргарита Масютина — на главную">
+          <img class="logo__avatar" src="../../assets/img/logo-avatar.png" width="44" height="44" alt="">
+          <img class="logo__text" src="../../assets/icons/logo-text.svg" width="84" height="31" alt="">
+          <img class="logo__text logo__text--dark" src="../../assets/icons/logo-text-dark.svg" width="84" height="31" alt="">
+        </a>
+
+        <nav class="header__nav t-100-lg" aria-label="Основное меню">
+          <a href="../../books/">Книги</a>
+          <a href="../../courses/">Курсы</a>
+          <a href="../../games/" aria-current="true">Игры</a>
+          <a href="../../#about">Об авторе</a>
+          <a href="../../#contacts">Контакты</a>
+        </nav>
+
+        <a class="btn btn--xs header__cta t-100-sm" href="../../newsletter/">Рассылка</a>
+
+        <button class="header__burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="mobile-menu">
+          <img class="header__burger-icon header__burger-icon--open" src="../../assets/icons/menu.svg" width="32" height="32" alt="">
+          <img class="header__burger-icon header__burger-icon--open header__burger-icon--dark" src="../../assets/icons/menu-dark.svg" width="32" height="32" alt="">
+          <img class="header__burger-icon header__burger-icon--close" src="../../assets/icons/close-dark.svg" width="32" height="32" alt="">
+        </button>
+      </div>
+    </div>
+
+    <nav class="mobile-menu" id="mobile-menu" aria-label="Мобильное меню">
+      <ul class="mobile-menu__list t-h-lg">
+        <li><a href="../../books/">Книги</a></li>
+        <li><a href="../../courses/">Курсы</a></li>
+        <li><a href="../../games/" aria-current="true">Игры</a></li>
+        <li><a href="../../#about">Об авторе</a></li>
+        <li><a href="../../#contacts">Контакты</a></li>
+      </ul>
+
+      <div class="promo">
+        <div class="promo__body">
+          <div class="promo__text">
+            <p class="t-i120-sm">(&nbsp;рассылка&nbsp;)</p>
+            <p class="t-h-sm">Дислексия, дисграфия</p>
+            <p class="t-120-lg c-subtle">и другие приключения</p>
+          </div>
+          <a class="btn btn--sm promo__btn promo__link t-100-md" href="../../newsletter/">Подписаться</a>
+        </div>
+        <div class="promo__img" aria-hidden="true">
+          <img src="../../assets/img/newsletter-letter.webp" width="1100" height="1100" loading="lazy" decoding="async" alt="">
+        </div>
+      </div>
+
+      <div class="mobile-menu__socials">
+        <a class="btn btn--icon-sm" href="https://vk.ru/margarita_masyutina" target="_blank" rel="noopener" aria-label="ВКонтакте"><img src="../../assets/icons/vk-20.svg" width="20" height="20" alt=""></a>
+        <a class="btn btn--icon-sm" href="https://t.me/margarita_masyutina" target="_blank" rel="noopener" aria-label="Телеграм"><img src="../../assets/icons/telegram-20.svg" width="20" height="20" alt=""></a>
+        <a class="btn btn--icon-sm" href="https://www.instagram.com/margarita_masyutina/" target="_blank" rel="noopener" aria-label="Инстаграм"><img src="../../assets/icons/instagram-20.svg" width="20" height="20" alt=""></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="page-head page-head--compact">
+      <div class="page-head__inner">
+        <nav class="breadcrumbs t-100-md c-subtle" aria-label="Хлебные крошки">
+          <ol class="breadcrumbs__list">
+            <li><a href="../../">Главная</a></li>
+            <li><a href="../">Игры</a></li>
+            <li aria-current="page">Поймай меня</li>
+          </ol>
+        </nav>
+        <h1 class="t-h-2xl">Поймай меня</h1>
+        <p class="t-140-xl c-subtle">Помогите герою добраться до&nbsp;цели через лабиринт: найдите верный путь, следуя заданию. Сможете пройти его без ошибок?</p>
+
+        <ul class="book-facts book-facts--wrap">
+          <li class="book-fact"><span class="book-fact__label">Видов заданий</span><span class="book-fact__value">5</span></li>
+          <li class="book-fact"><span class="book-fact__label">Персонажей</span><span class="book-fact__value">5</span></li>
+          <li class="book-fact"><span class="book-fact__label">Игроков</span><span class="book-fact__value">1</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Сама игра — с education-site-iota.vercel.app, пока не пришёл её код -->
+    <section class="game" aria-label="Игра «Поймай меня»">
+      <div class="game__inner">
+        <iframe class="game__frame" id="game-frame" src="https://education-site-iota.vercel.app/games/word-maze" title="Игра «Поймай меня»" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <div class="game__bar">
+          <button class="btn btn--light t-100-lg" type="button" data-fullscreen="game-frame">На&nbsp;весь экран</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Другие игры -->
+    <div class="folders">
+      <div class="folders__inner">
+        <section class="folder folder--games folder--single folder--titled" aria-labelledby="related-title">
+          <img class="folder__tab" src="../../assets/icons/tab-blue.svg" width="200" height="48" alt="">
+
+          <div class="folder__body">
+            <h2 class="folder__title t-h-xl" id="related-title">Другие игры</h2>
+
+            <div class="cards cards--games">
+              <article class="card">
+                <div class="card__main">
+                  <div class="card__media">
+                    <img src="../../assets/img/game-double.webp" width="1200" height="600" loading="lazy" decoding="async" alt="Две карточки со слогом «МА»">
+                  </div>
+                  <div class="card__text">
+                    <p class="card__tag t-i140-lg">[  Игра 01  ]</p>
+                    <h3 class="t-h-lg">Где дубль?</h3>
+                    <p class="t-140-lg c-subtle">На двух карточках есть один общий элемент. Кто найдёт его первым?</p>
+                  </div>
+                </div>
+                <a class="btn t-100-lg" href="../double/">Играть</a>
+              </article>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__col footer__col--site">
+          <p class="t-i120-lg c-subtle">Сайт</p>
+          <ul class="footer__links t-120-lg">
+            <li><a href="../../books/">Книги</a></li>
+            <li><a href="../../courses/">Курсы</a></li>
+            <li><a href="../../games/">Игры</a></li>
+            <li><a href="../../#about">Об авторе</a></li>
+            <li><a href="../../#contacts">Контакты</a></li>
+            <li><a href="../../newsletter/">Рассылка</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col footer__col--social">
+          <p class="t-i120-lg c-subtle">Соцсети</p>
+          <ul class="footer__links t-120-lg">
+            <li><a href="https://vk.ru/margarita_masyutina" target="_blank" rel="noopener">ВКонтакте</a></li>
+            <li><a href="https://t.me/margarita_masyutina" target="_blank" rel="noopener">Телеграм</a></li>
+            <li><a href="https://www.instagram.com/margarita_masyutina/" target="_blank" rel="noopener">Инстаграм*</a></li>
+          </ul>
+        </div>
+
+        <div class="promo footer__promo">
+          <div class="promo__body">
+            <div class="promo__text">
+              <p class="t-i120-sm">(&nbsp;рассылка&nbsp;)</p>
+              <p class="t-h-sm">Дислексия, дисграфия</p>
+              <p class="t-120-lg c-subtle">и другие приключения</p>
+            </div>
+            <a class="btn btn--sm promo__btn promo__link t-100-md" href="../../newsletter/">Подписаться</a>
+            <a class="btn btn--icon-sm promo__arrow promo__link" href="../../newsletter/" aria-label="Подписаться на рассылку">
+              <img src="../../assets/icons/chevron-right-white.svg" width="20" height="20" alt="">
+            </a>
+          </div>
+          <div class="promo__img" aria-hidden="true">
+            <img src="../../assets/img/newsletter-letter.webp" width="1100" height="1100" loading="lazy" decoding="async" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__bottom t-i140-md c-subtle">
+        <div class="footer__legal">
+          <p>*Instagram принадлежит компании Meta Platforms Inc., признанной экстремистской организацией; её деятельность запрещена на территории Российской Федерации.</p>
+          <a href="../../consent-newsletter/">Согласие на получение рассылки рекламного, информационного характера</a>
+          <a href="../../policy/">Политика обработки персональных данных</a>
+          <a href="../../consent/">Согласие на обработку персональных данных</a>
+        </div>
+        <div class="footer__copy">
+          <p class="u-pre">©2026  Все права защищены. ИП Масютина М.Е.</p>
+          <a href="https://vyoksa.com" target="_blank" rel="noopener">Разработано vyoksa</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../js/main.js" defer></script>
+</body>
+</html>
