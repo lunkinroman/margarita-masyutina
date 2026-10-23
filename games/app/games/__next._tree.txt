@@ -1,0 +1,3 @@
+:HL["/margarita-masyutina/games/app/_next/static/css/3226793a5ed0d930.css","style"]
+:HL["/margarita-masyutina/games/app/_next/static/css/aed97ee4460f55b2.css","style"]
+0:{"tree":{"name":"","param":null,"prefetchHints":4176,"slots":{"children":{"name":"games","param":null,"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"LHh7-mhx5T8sS8xjNBGTk"}

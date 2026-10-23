@@ -97,10 +97,10 @@
       </div>
     </section>
 
-    <!-- Сама игра — с education-site-iota.vercel.app, пока не пришёл её код -->
+    <!-- Сама игра — статика из кода клиента в games/app/ (собирает tools/games.py), в iframe -->
     <section class="game" aria-label="Игра «Поймай меня»">
       <div class="game__inner">
-        <iframe class="game__frame" id="game-frame" src="https://education-site-iota.vercel.app/games/word-maze" title="Игра «Поймай меня»" allow="autoplay; fullscreen" allowfullscreen></iframe>
+        <iframe class="game__frame" id="game-frame" src="../app/games/word-maze/" title="Игра «Поймай меня»" allow="autoplay; fullscreen" allowfullscreen></iframe>
         <div class="game__bar">
           <button class="btn btn--light t-100-lg" type="button" data-fullscreen="game-frame">На&nbsp;весь экран</button>
         </div>

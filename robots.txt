@@ -1,4 +1,5 @@
 User-agent: *
 Disallow: /tools/
+Disallow: /games/app/
 
 Sitemap: https://margaritamasyutina.ru/sitemap.xml
