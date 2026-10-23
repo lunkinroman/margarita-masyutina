@@ -107,18 +107,19 @@
       </div>
     </section>
 
-    <!-- Materials: folders -->
+    <!-- Materials: folders. «Книги», «Курсы» и «Игры» при загрузке свёрнуты (is-collapsed), раскрываются по нажатию;
+         так попросил клиент 23.10. «Об авторе» без переключателя, всегда открыта -->
     <div class="folders">
       <div class="folders__inner">
 
         <!-- Книги -->
-        <section class="folder folder--books" id="books" aria-labelledby="books-title">
+        <section class="folder folder--books is-collapsed" id="books" aria-labelledby="books-title">
           <img class="folder__tab" src="assets/icons/tab-red.svg" width="200" height="48" alt="">
           <h2 class="folder__label t-120-xl" id="books-title">Книги</h2>
 
           <div class="folder__body">
             <div class="folder__head">
-              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="books-content" aria-label="Свернуть или развернуть раздел «Книги»">
+              <button class="folder__toggle" type="button" aria-expanded="false" aria-controls="books-content" aria-label="Свернуть или развернуть раздел «Книги»">
                 <img src="assets/icons/chevron-down-white.svg" width="24" height="24" alt="">
               </button>
             </div>
@@ -135,7 +136,7 @@
                       <div class="card__text">
                         <p class="card__tag t-i140-lg">[  Серия  ]</p>
                         <h3 class="t-h-lg">Дисграфия</h3>
-                        <p class="t-140-lg c-subtle">Три пособия для коррекции ошибок на&nbsp;письме у&nbsp;младших школьников: смешения букв, обозначающих звонкие и&nbsp;глухие согласные, трудностей обозначения мягкости согласных и&nbsp;смешения сходных по&nbsp;начертанию букв. В&nbsp;каждой книге представлена система занятий по&nbsp;выбранному направлению.</p>
+                        <p class="t-140-lg c-subtle">Серия пособий для коррекции ошибок на&nbsp;письме у&nbsp;младших школьников: смешения букв, обозначающих звонкие и&nbsp;глухие согласные, трудностей обозначения мягкости согласных и&nbsp;смешения сходных по&nbsp;начертанию букв. В&nbsp;каждой книге представлена система занятий по&nbsp;выбранному направлению.</p>
                       </div>
                     </div>
                     <a class="btn t-100-lg" href="books/disgrafiya/">Подробнее</a>
@@ -178,13 +179,13 @@
         </section>
 
         <!-- Курсы -->
-        <section class="folder folder--courses" id="courses" aria-labelledby="courses-title">
+        <section class="folder folder--courses is-collapsed" id="courses" aria-labelledby="courses-title">
           <img class="folder__tab" src="assets/icons/tab-gray.svg" width="200" height="48" alt="">
           <h2 class="folder__label t-120-xl" id="courses-title">Курсы</h2>
 
           <div class="folder__body">
             <div class="folder__head">
-              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="courses-content" aria-label="Свернуть или развернуть раздел «Курсы»">
+              <button class="folder__toggle" type="button" aria-expanded="false" aria-controls="courses-content" aria-label="Свернуть или развернуть раздел «Курсы»">
                 <img src="assets/icons/chevron-down-dark.svg" width="24" height="24" alt="">
               </button>
             </div>
@@ -229,13 +230,13 @@
         </section>
 
         <!-- Игры: живут на Vercel, на сайте — страницы со встроенной игрой -->
-        <section class="folder folder--games" id="games" aria-labelledby="games-title">
+        <section class="folder folder--games is-collapsed" id="games" aria-labelledby="games-title">
           <img class="folder__tab" src="assets/icons/tab-blue.svg" width="200" height="48" alt="">
           <h2 class="folder__label t-120-xl" id="games-title">Игры</h2>
 
           <div class="folder__body">
             <div class="folder__head">
-              <button class="folder__toggle" type="button" aria-expanded="true" aria-controls="games-content" aria-label="Свернуть или развернуть раздел «Игры»">
+              <button class="folder__toggle" type="button" aria-expanded="false" aria-controls="games-content" aria-label="Свернуть или развернуть раздел «Игры»">
                 <img src="assets/icons/chevron-down-white.svg" width="24" height="24" alt="">
               </button>
             </div>
